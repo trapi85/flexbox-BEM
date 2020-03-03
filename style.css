@@ -1,0 +1,120 @@
+head {
+    font-family: 'Roboto';
+
+}
+body {
+    background-color: lightblue
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px grey;
+    background-color: white;
+
+}
+.nav {
+    font-family: 'Roboto';
+    display: flex;
+    list-style-type: none;
+    font-size: 24px;
+    color: #444444;
+    align-self: stretch;
+    margin-right: 100px;
+
+
+}
+.main {
+    background-color: #8B008B;
+    color: white;
+    font-family: medium 'Roboto';
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    justify-content: center;
+
+}
+.main__button {
+    border-radius: 40px;
+    background: #444444;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border: none;
+}
+.main__text {
+    align-content: center;
+}
+
+.nav__green {
+    color: green;
+    margin-right: 20px;
+    
+}
+.nav__yellow {
+    color: yellow;
+    margin-right: 20px;
+}
+.nav__blue {
+    color: blue;
+    margin-right: 20px;
+}
+.nav__red {
+    color: red;
+    margin-right: 20px;
+}
+.img {
+    height: 40px;
+}
+.color__boxes {
+    display: flex;
+    align-content: center;
+    background-color: lightcyan;
+    position: relative;
+    height: 250px;
+}
+.blue__box {
+    background: blue;
+	width: 200px;
+	height: 150px;
+	color:#fff;
+	margin: 30px;
+	padding: 20px;
+    text-align: center;
+    position: absolute;
+    top: -70px;
+    left: 200px;
+
+}
+.green__box {
+    background: green;
+	width: 200px;
+	height: 150px;
+	color:#fff;
+	margin: 30px;
+	padding: 20px;
+    text-align: center;
+    position: absolute;
+    top: -70px;
+    left: 550px;
+
+}
+.red__box {
+    background: red;
+	width: 200px;
+	height: 150px;
+	color:#fff;
+	margin: 30px;
+	padding: 20px;
+    text-align: center;
+    position: absolute;
+    top: -70px;
+    left: 900px;
+    
+}
